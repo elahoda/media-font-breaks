@@ -1,0 +1,67 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+/*** phone ***/
+@media (max-width:767px) {
+  body h1 {
+    color: #7b7d70;
+  }
+
+  body h2 {
+    color: #4eafb8;
+  }
+
+  body p {
+    color: #ff8641;
+  }
+
+}
+
+/*** tablet ***/
+
+@media (min-width:768px) {
+  body h1 {
+    color: #6f810a;
+  }
+
+  body h2 {
+    color: #07acbb;
+  }
+
+  body p {
+    color: #a14008;
+  }
+
+}
+
+/*** desktop ***/
+
+@media (min-width:1200px) {
+  body h1 {
+    color: #d4e66e;
+  }
+
+  body h2 {
+    color: #112729;
+  }
+
+  body p {
+    color: #e4e712;
+  }
+
+}
